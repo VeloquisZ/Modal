@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./modal.css">
+    <title>SA</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="background">
+            <button onclick="Temperatura()" class="butao">
+                <div class="card">
+                    <p>TEMPERATURA</p>
+                </div>
+            </button>
+
+            <button onclick="Ph()" class="butao">
+                <div class="card">
+                    <p>PH</p>
+                </div>
+            </button>
+
+            <button onclick="Turbidez()" class="butao">
+                <div class="card">
+                    <p>TURBIDEZ</p>
+                </div>
+            </button>
+
+            <button onclick="Nivel()" class="butao">
+                <div class="card">
+                    <p>NÍVEL D'ÁGUA</p>
+                </div>
+            </button>
+
+            <button class="butao" onclick="Limpar()">
+                <div class="card" id="time">
+                    <p>Horas</p>
+                </div>
+            </button>
+        </div>
+
+    </div>
+
+    <div class="cont-expor">
+        <div class="expor">
+            <div id="feicha" onclick="feichar()">
+                <p>X</p>
+            </div>
+            <p id="saida"></p>
+        </div>
+    </div>
+
+
+    <script src="./modal.js">
+
+    </script>
+</body>
+
+</html>
